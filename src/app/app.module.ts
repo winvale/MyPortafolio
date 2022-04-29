@@ -9,10 +9,12 @@ import { PortfolioModule } from './@components/portfolio/portfolio.module';
 import { CopyrightModule } from './@components/copyright/copyright.module';
 import { ContactModule } from './@components/contact/contact.module';
 import { AboutModule } from './@components/about/about.module';
+import { SlaiderCertificComponent } from './@components/slaider-certific/slaider-certific.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SlaiderCertificComponent
   ],
   imports: [
     BrowserModule,
