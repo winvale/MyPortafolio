@@ -1,0 +1,13 @@
+<!-- About Section Heading -->
+<h1 *ngIf="main" class="page-section-heading text-center text-uppercase {{ color }}">{{ title }}</h1>
+<h2 *ngIf="!main" class="page-section-heading text-center text-uppercase {{ color }}">{{ title }}</h2>
+
+<!-- Icon Divider -->
+<div class="divider-custom {{ divider }} ">
+  <div class="fa fa-star fa-lg"></div>
+  <div class="fa fa-star fa-lg">
+    <i class="fa fa-star fa-lg"></i>
+  </div>
+  <div class="fa fa-star fa-lg"></div>
+  <div class="fa fa-star fa-lg"></div>
+</div>
