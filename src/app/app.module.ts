@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { NavbarModule } from './@components/navbar/navbar.module';
 import { HeaderModule } from './@components/header/header.module';
@@ -9,12 +8,12 @@ import { PortfolioModule } from './@components/portfolio/portfolio.module';
 import { CopyrightModule } from './@components/copyright/copyright.module';
 import { ContactModule } from './@components/contact/contact.module';
 import { AboutModule } from './@components/about/about.module';
-import { SlaiderCertificComponent } from './@components/slaider-certific/slaider-certific.component';
-
+import { SlaiderModule } from './@components/slaider/slaider.module';
 @NgModule({
   declarations: [
     AppComponent,
-    SlaiderCertificComponent
+
+   
   ],
   imports: [
     BrowserModule,
@@ -24,7 +23,8 @@ import { SlaiderCertificComponent } from './@components/slaider-certific/slaider
     PortfolioModule,
     CopyrightModule,
     ContactModule,
-    AboutModule
+    AboutModule,
+    SlaiderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

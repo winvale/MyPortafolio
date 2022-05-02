@@ -2,9 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { IModal } from '@widgets/modal/modal.interface';
 
 const description = `
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil,
-                      molestias magnam, recusandae quos quis inventore quisquam velit
-                      asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.`;
+                      Descripcion del producto muy pronto.`;
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',

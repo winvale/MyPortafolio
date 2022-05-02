@@ -17,7 +17,7 @@ export class NavbarComponent implements OnInit {
   }
 
   select(itemPos: number) {
-    for (let i = 0; i <= 3; i++) {
+    for (let i = 0; i <= 4; i++) {
       this.menuOptionsActive[i] = (i === itemPos) ? true : false;
     }
   }
