@@ -13,32 +13,32 @@ export class PortfolioComponent implements OnInit {
   ngOnInit() {
     this.items.push ({
       title: 'Log cabin',
-      image: 'assets/img/portfolio/cabin.png',
+      image: 'assets/img/portfolio/iconoParaProyectos.png',
       description
     });
     this.items.push ({
       title: 'Tasty Cake',
-      image: 'assets/img/portfolio/cake.png',
+      image: 'assets/img/portfolio/iconoParaProyectos.png',
       description
     });
     this.items.push ({
       title: 'Circus',
-      image: 'assets/img/portfolio/circus.png',
+      image: 'assets/img/portfolio/iconoParaProyectos.png',
       description
     });
     this.items.push ({
       title: 'Game Game',
-      image: 'assets/img/portfolio/game.png',
+      image: 'assets/img/portfolio/iconoParaProyectos.png',
       description
     });
     this.items.push ({
       title: 'Log Safe',
-      image: 'assets/img/portfolio/safe.png',
+      image: 'assets/img/portfolio/iconoParaProyectos.png',
       description
     });
     this.items.push ({
       title: 'Yellow submarine',
-      image: 'assets/img/portfolio/submarine.png',
+      image: 'assets/img/portfolio/iconoParaProyectos.png',
       description
     });
   }
